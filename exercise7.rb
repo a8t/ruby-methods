@@ -5,7 +5,7 @@ end
 def getData(personNumber)
   puts "How far did person #{personNumber} run (in metres)?"
   distance = gets.to_f
-  puts "How long (in minutes) did person 1 run take to run #{distance} metres?"
+  puts "How long (in minutes) did person #{personNumber} take to run #{distance} metres?"
   time = gets.to_f
   speed(distance,time)
 end
